@@ -1,0 +1,52 @@
+/* Select the body element and apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Select all heading elements (h1 to h6) and modify their styles */
+  h1 {
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  /* Select all anchor (link) elements and modify their styles */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Select all paragraphs and modify their styles */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Select a specific element by its class */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Select elements within a specific class */
+  .container h1 {
+    font-size: 32px;
+  }
+  
+  .container p {
+    color: #666666;
+  }
+  
+  /* Apply a hover effect to anchor elements */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apply a background color to a specific element */
+  .highlight {
+    background-color: yellow;
+  }
+  
